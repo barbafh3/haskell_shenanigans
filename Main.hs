@@ -29,6 +29,7 @@ totalUsage = foldr ((+) . snd) 0
 -- totalUsage [] = 0
 -- totalUsage (kvPair : list) = snd kvPair + totalUsage list
 
+-- Testing
 addToStorage :: SIndexed Int -> [SIndexed Int] -> Maybe [SIndexed Int]
 addToStorage _ [] = Nothing
 addToStorage addingKV (kvPair : list)
