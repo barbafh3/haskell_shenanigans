@@ -1,0 +1,6 @@
+cradle:
+  cabal:
+    - path: "./Main.hs"
+      component: "teste:exe:teste"
+    - path: "./Storage.hs"
+      component: "teste:exe:teste"

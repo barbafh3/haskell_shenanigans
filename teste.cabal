@@ -18,7 +18,9 @@ extra-source-files:  CHANGELOG.md
 
 executable teste
   main-is:             Main.hs
-  -- other-modules:
+  other-modules:
+					   Storage
+					   Loop
   -- other-extensions:
   build-depends:       base,
                        locators
